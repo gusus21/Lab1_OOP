@@ -1,0 +1,16 @@
+D:\проекти VS\ооп\L01_v19\L01_v19\bin\Debug\net5.0\L01_v19.exe
+D:\проекти VS\ооп\L01_v19\L01_v19\bin\Debug\net5.0\L01_v19.deps.json
+D:\проекти VS\ооп\L01_v19\L01_v19\bin\Debug\net5.0\L01_v19.runtimeconfig.json
+D:\проекти VS\ооп\L01_v19\L01_v19\bin\Debug\net5.0\L01_v19.runtimeconfig.dev.json
+D:\проекти VS\ооп\L01_v19\L01_v19\bin\Debug\net5.0\L01_v19.dll
+D:\проекти VS\ооп\L01_v19\L01_v19\bin\Debug\net5.0\ref\L01_v19.dll
+D:\проекти VS\ооп\L01_v19\L01_v19\bin\Debug\net5.0\L01_v19.pdb
+D:\проекти VS\ооп\L01_v19\L01_v19\obj\Debug\net5.0\L01_v19.csproj.AssemblyReference.cache
+D:\проекти VS\ооп\L01_v19\L01_v19\obj\Debug\net5.0\L01_v19.GeneratedMSBuildEditorConfig.editorconfig
+D:\проекти VS\ооп\L01_v19\L01_v19\obj\Debug\net5.0\L01_v19.AssemblyInfoInputs.cache
+D:\проекти VS\ооп\L01_v19\L01_v19\obj\Debug\net5.0\L01_v19.AssemblyInfo.cs
+D:\проекти VS\ооп\L01_v19\L01_v19\obj\Debug\net5.0\L01_v19.csproj.CoreCompileInputs.cache
+D:\проекти VS\ооп\L01_v19\L01_v19\obj\Debug\net5.0\L01_v19.dll
+D:\проекти VS\ооп\L01_v19\L01_v19\obj\Debug\net5.0\ref\L01_v19.dll
+D:\проекти VS\ооп\L01_v19\L01_v19\obj\Debug\net5.0\L01_v19.pdb
+D:\проекти VS\ооп\L01_v19\L01_v19\obj\Debug\net5.0\L01_v19.genruntimeconfig.cache
