@@ -31,7 +31,7 @@ namespace L01_v19
         }
         private double GetArea()
         {
-            return 3.14 * Math.Pow(r, 2);
+            return Math.PI * Math.Pow(r, 2);
         }
         private double PerimeterCalc()
         {
