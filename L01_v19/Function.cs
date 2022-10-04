@@ -25,7 +25,7 @@ namespace L01_v19
         {
             for (int i = 0; i < data.Length; i++)
             {
-                Console.Write(data[i]);
+                Console.WriteLine(data[i]);
             }
             Console.WriteLine();
         }
@@ -35,15 +35,15 @@ namespace L01_v19
             string[] temp = new string[1];
             double step = double.Parse(Console.ReadLine());
             int k = 0;
-            for (double i = x; i < endX; i += step)
+            for (double i = x; i <= endX; i += step)
             {
                 if (i > -1 && i <= 1)
-                    y = Math.Sqrt(1 - Math.Sqrt(Math.Tan(i)));
+                    y = Math.Sqrt(Math.Abs(1 - Math.Sqrt(Math.Abs(Math.Tan(1)))));
                 else if (i < -10)
                     y = Math.Pow(Math.E, i) / Math.Log(2, 1 + Math.Tan(i));
                 else
-                    y = double.NaN;
-                if (y.ToString() == "NaN")
+                    y = 0;
+                if (y == 0)
                     temp[k] += $"{i}; ";
                 else
                     temp[k] += $"{i}, {y}; ";

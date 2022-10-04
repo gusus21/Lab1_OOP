@@ -8,8 +8,7 @@ namespace L01_v19
 {
     class User
     {
-        string name, password;
-        string dateOfRegister;
+        string name, password, dateOfRegister;
         int age;
 
         public User(string name_, string password_, int age_, string registerDate)

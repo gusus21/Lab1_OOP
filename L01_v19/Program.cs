@@ -43,6 +43,7 @@ namespace L01_v19
         //Task 2
         #region
         static void Task2()
+
         {
             Console.WriteLine("Input x, y, r");
             float x = float.Parse(Console.ReadLine());
@@ -59,20 +60,9 @@ namespace L01_v19
         {
             Console.WriteLine("Length");
             int length = int.Parse(Console.ReadLine());
-            int x;
-            int y;
-            string name;
-            string[] data;
             Point[] points = new Point[length];
             Console.WriteLine("Дані: х, у, ім'я");
-            for (int i = 0; i < length; i++)
-            {
-                data = Console.ReadLine().Trim().Split();
-                x = int.Parse(data[0]);
-                y = int.Parse(data[1]);
-                name = data[2];
-                points[i] = new(x, y, name);
-            }
+            FillPointsArr(points);
             Figure figure = new(points[0], points[1], points[2]);
             switch (points.Length)
             {
@@ -81,6 +71,22 @@ namespace L01_v19
             }
             Console.WriteLine("Фігура: {0}", figure.TypeOfFigure());
             figure.PerimeterCalculator();
+        }
+
+        static void FillPointsArr(Point[] points)
+        {
+            int x;
+            int y;
+            string name;
+            string[] data;
+            for (int i = 0; i < points.Length; i++)
+            {
+                data = Console.ReadLine().Trim().Split();
+                x = int.Parse(data[0]);
+                y = int.Parse(data[1]);
+                name = data[2];
+                points[i] = new(x, y, name);
+            }
         }
         #endregion
         //Task 4
@@ -94,7 +100,7 @@ namespace L01_v19
           Fill(users);
           int i = int.Parse(Console.ReadLine());
           if(i - 1 >= 0 && i - 1 < amount)
-          Console.WriteLine(users[i]);
+          Console.WriteLine(users[i - 1]);
         }
         static void Fill(User[] users)
         {
