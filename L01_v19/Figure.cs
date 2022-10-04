@@ -49,8 +49,7 @@ namespace L01_v19
             {
                 case 3: perimeter = LengthOfSide(points[0], points[1]) + LengthOfSide(points[1], points[2]) + LengthOfSide(points[2], points[0]); break;
                 case 4: perimeter = LengthOfSide(points[0], points[1]) + LengthOfSide(points[1], points[2]) + LengthOfSide(points[2], points[3]) + LengthOfSide(points[3], points[0]); ; break;
-                case 5:
-                    perimeter = LengthOfSide(points[0], points[1]) + LengthOfSide(points[1], points[2]) + LengthOfSide(points[2], points[3]) + LengthOfSide(points[3], points[4]) + LengthOfSide(points[4], points[0]); break;
+                case 5: perimeter = LengthOfSide(points[0], points[1]) + LengthOfSide(points[1], points[2]) + LengthOfSide(points[2], points[3]) + LengthOfSide(points[3], points[4]) + LengthOfSide(points[4], points[0]); break;
                 default: Console.WriteLine("Error"); break;
             }
             Console.WriteLine("Периметр: {0}", perimeter);

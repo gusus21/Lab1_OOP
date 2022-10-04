@@ -8,16 +8,16 @@ namespace L01_v19
 {
     class Converter
     {
-        double usd;
-        double eur;
+        float usd;
+        float eur;
 
-        public Converter(double usd_, double eur_)
+        public Converter(float usd_, float eur_)
         {
             usd = usd_;
             eur = eur_;
         }
 
-        public double Vallet1 => usd;
-        public double Vallet2 => eur;
+        public float Vallet1 => usd;
+        public float Vallet2 => eur;
     }
 }
